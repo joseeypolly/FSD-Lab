@@ -15,7 +15,7 @@ function App() {
  password: "pass2"
  }
  ];
- const errors = { 
+ const errors = {
   uname: "invalid username",
  pass: "invalid password"
  };
@@ -72,4 +72,4 @@ function App() {
  </div>
  );
 } 
-export default App;
+export default App; 
