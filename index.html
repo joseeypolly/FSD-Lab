@@ -4,15 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #error-message {
+        color: red;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #007bff;
+        font-size: 1.1rem;
+    }
+
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    </style>
 </head>
 <body>
-    <p>Error</p>
-    <a href="week1.html">Week-1. Write a program to create a simple webpage using HTML. </a>
-    <a href="week2.html">Week-2. Write a program to create a website using HTML CSS and JavaScript? </a>
-    <a href="week3.html">Week-3. Write a program to build a Chat module using HTML CSS and JavaScript?</a>
-    <a href="week6.html">Week-6. Write a program to create and Build a Password Strength Check using Jquery.</a>
-    <a href="week7.html">Week-7. Write a program to create and Build a star rating system using Jquery.</a>
-    <a href="simple-login/">Week-8. Create a Simple Login form using React js.</a>
-    <a href="FSD Internal.pdf">Fsd-intenal</a>
+    <div class="container">
+        <p id="error-message">Error</p>
+        <nav>
+            <ul>
+                <li><a href="week1.html">Week-1: Simple Webpage using HTML</a></li>
+                <li><a href="week2.html">Week-2: Website using HTML, CSS, and JavaScript</a></li>
+                <li><a href="week3.html">Week-3: Chat Module using HTML, CSS, and JavaScript</a></li>
+                <li><a href="week6.html">Week-6: Password Strength Check using jQuery</a></li>
+                <li><a href="week7.html">Week-7: Star Rating System using jQuery</a></li>
+                <li><a href="simple-login/">Week-8: Simple Login Form using React JS</a></li>
+                <li><a href="FSD Internal.pdf">FSD Internal PDF</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        console.log("Page loaded successfully.");
+    });
+    </script>
 </body>
 </html>
