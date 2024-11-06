@@ -1,0 +1,52 @@
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-product {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  span {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  button.snipcart-add-item {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button.snipcart-add-item:hover {
+    background-color: #0056b3;
+  }
+  

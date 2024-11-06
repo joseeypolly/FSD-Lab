@@ -1,0 +1,26 @@
+[
+    {
+    "id": "t-shirt",
+    "name": "Fruits",
+    "price": 35.0,
+    "imageUrl": "https://www.lalpathlabs.com/blog/wp-content/uploads/2019/01/Fruits-and-Vegetables.jpg",
+    "description": "A Basket of fruits",
+    "url": "/api/products/halfmoon"
+    },
+    {
+    "id": "wallet",
+    "name": "Vegitables",
+    "price": 20.0,
+    "imageUrl": "https://img.freepik.com/free-photo/bottom-view-fruits-vegetables-radish-cherrytomatoes-persimmon-tomatoes-kiwi-cucumber-apples-red-cabbage-parsley-quince-auberginesblue-table_140725-146174.jpg",
+    "description": "A Basket of Veges",
+    "url": "/api/products/wallet"
+    },
+    {
+        "id": "cup",
+        "name": "Milk",
+        "price": 5.0,
+        "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2022/4/XN/XO/GT/48185030/milk-packaging-box-1000x1000.jpg",
+        "description": "Healthy Milk",
+        "url": "/api/products/veiltail"
+        }
+]
